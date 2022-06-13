@@ -1,1 +1,23 @@
 이것은 테스트 파일 입니다.
+
+
+깃 터미널 명령어 
+
+기본적인 버전관리 명령어
+git pull origin master
+git status
+git add .
+git commit -m '커밋 메시지'
+git push origin mster
+
+
+깃 설정 세팅
+git init
+git config —global user.name "이름" (아무 이름을 적어도 상관없지만 깃허브 이름과 통일을 추천!)
+git config —global user.email "깃허브 이메일"
+git branch --set-upstream-to=origin/master master : git pull origin master -> git pull 단축 설정하기
+
+
+깃 연결 구성 확인
+git remote -v
+
