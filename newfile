@@ -22,4 +22,5 @@ git clone
 
 깃 연결 구성 확인
 git remote -v
+git config --list
 
